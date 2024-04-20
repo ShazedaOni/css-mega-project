@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -14,8 +15,10 @@ header h1 {
 }
 
 header {
-    padding: 40px;
+    padding: 50px;
     background-color: rgb(17, 124, 143);
+    text-align: center;
+    color: #edf1f2;
 }
 
 nav {
@@ -25,11 +28,13 @@ nav {
 
 nav a {
     text-decoration: none;
-    padding: 20px;
+    padding: 14px 20px;
     text-align: center;
     float: left;
     color: white;
+    display: block;
 }
+
 
 main {
     background-color: white;
@@ -37,7 +42,7 @@ main {
 }
 
 h2 {
-    padding: 20px;
+    padding-bottom: 40px;
 }
 
 section:nth-child(even) {
@@ -46,6 +51,9 @@ section:nth-child(even) {
 
 section {
     min-height: 100vh;
+    text-align: center;
+    padding-top: 40px;
+    height: 100vh;
 }
 
 video {
@@ -54,14 +62,15 @@ video {
 
 iframe {
     height: 75vh;
+    padding: 0px 5px;
 }
 
 img {
-    padding: 10px;
+    padding: 0px 20px;
 }
 
 section h5 {
-    margin: 40px;
+    margin: 0px 130px;
 }
 
 footer {
@@ -71,8 +80,16 @@ footer {
 
 footer a {
     text-decoration: none;
-    padding: 20px;
+    padding: 14px 20px;
     text-align: center;
     float: left;
     color: white;
+    display: block;
 }
+
+.copyright {
+    float: right;
+}
+
+
+
